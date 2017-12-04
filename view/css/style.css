@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #c0cfe4;
+  }
+  .top{
+      height: 60%;
+      display: block;
+  }
+
+  .div-logo{
+      width: 20%;
+      margin: 0 40% 0  40%;
+  }
+  .input-style::-webkit-input-placeholder {
+      color: #19355a;
+      text-align: left;
+      position: left;
+  }
+  #logo-inicial{
+    width: 100%;
+    height: auto;
+  }
+  .texto-pagina{
+    text-align: center;
+    font-size: 16px;
+    color:#19355a;
+  }
+  .btn-style{
+    background-color: #c0cfe4;
+    width: 100%;
+    border: solid 1px #19355a !important;
+    margin: 5px 0 5px 0;
+    font-size: 16px !important;
+    color:#19355a;
+  }
+  .btn-style:hover{
+    border: solid 1px blue;
+  }
+  .ende-form{
+    margin:50px !important;
+  }
+  .input-style{
+      border: solid 1px #19355a !important;
+      width: 100%;
+       background: #c0cfe4;
+       color:#19355a  !important;
+       margin:5px 0 0 0;
+
+  }
+  :-ms-input-placeholde{
+       color:#19355a  !important;
+  }
+  .div-input{
+      margin: 20px 0 20px 0;
+  }
+  .textuare-control{
+        height: 300px;
+        border: solid 1px #19355a !important;
+        background: #c0cfe4 !important;
+  }
+  .footer{
+      position: fixed;
+      bottom: 0px;
+      margin: 0px;
+  }
+  #carregando{
+      display: none;
+      left: 0px;
+      top: 0px;
+      width: 100px;
+      height: auto;
+      z-index: 9999;
+  }
+  
+  .text-pagina .alterar{
+      text-transform: none;
+      text-decoration: none;
+  }
